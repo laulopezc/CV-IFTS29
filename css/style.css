@@ -1,0 +1,117 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    main {
+        display: flex;
+        width: 900px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    aside {
+        width: 300px;
+        background-color: #4B0082;
+        color: white;
+        padding: 20px;
+    }
+
+    #foto-perfil {
+        width: 200px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    aside h3 {
+        border-bottom: 2px solid white;
+        padding-bottom: 5px;
+        margin: 15px 0 10px;
+        font-size: 18px;
+    }
+
+    aside ul {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    aside li {
+        margin: 6px 0;
+        font-size: 14px;
+    }
+
+    section {
+        flex: 1;
+        padding: 20px 30px;
+    }
+
+    #portada {
+        background-color: #e0e0e0;
+        padding: 15px 20px;
+        border-radius: 8px;
+        margin-bottom: 20px; 
+    }
+
+    #portada h1 {
+        font-size: 28px;
+        margin: 0 0 5px 0;
+    }
+
+    #portada h4 {
+        color: #444;
+        margin: 0;
+    }
+
+
+    #portada hr {
+        display: none;
+    }
+
+    .section-resumen {
+         margin-bottom: 30px;
+    }
+
+    .section-resumen p {
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+
+    .section-estudios, .section-cursos {
+        margin-bottom: 25px;
+    }
+
+    .section-estudios h2, .section-cursos h2 {
+        margin-bottom: 15px;
+        font-size: 22px;
+        color: #333;
+    }
+
+    .estudio, .curso {
+        margin-bottom: 20px;
+    }
+
+    .estudio-titulo, .curso-titulo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .estudio-titulo h4, .curso-titulo h4 {
+        font-size: 18px;
+    }
+
+    .estudio-titulo p, .curso-titulo p {
+        font-size: 14px;
+        color: #555;
+    }
